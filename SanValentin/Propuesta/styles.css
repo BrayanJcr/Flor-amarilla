@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  /* width: 100%; */
+  text-align: center;
+  transform: translateY(-50%);
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 40px;
+  color: #c70012;
+  padding: 0 20px;
+}
+
+@media (min-width:1200px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+
+.canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+.container {
+  text-align: center;
+}
+
+h1, .botones {
+  position: relative; /* Asegúrate de que otros elementos estén posicionados relativamente */
+  z-index: 1; /* Asegúrate de que otros elementos estén delante del canvas */
+  text-align: center;
+  margin-top: 20px;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+.general {
+  text-align: center;
+}
+
+.botones {
+  margin: 0 10px;
+}
+
+.botones button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #ff6b6b;
+  color: white;
+  outline: none;
+  transition: transform 0.3s ease;
+}
+
+.botones button:hover {
+  transform: translateX(-5px);
+}
+
+.hidden {
+  display: none;
+}
