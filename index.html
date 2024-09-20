@@ -2,54 +2,76 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="Stylesheet" href="style.css">
-    <title>Flower</title>
+    <title>For: sarely</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('img/amar.png') no-repeat center center/cover;
+            font-family: 'Arial', sans-serif;
+        }
+
+        h1, h2 {
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 8vw;
+            animation: fadeInOut 3s infinite; /* Animación suave */
+        }
+
+        h2 {
+            font-size: 4vw;
+            margin-top: 20px;
+            animation: pulse 2s infinite; /* Pequeño efecto de pulsación */
+        }
+
+        button {
+            font-size: 3vw;
+            padding: 15px 30px;
+            margin-top: 30px;
+            border: none;
+            margin-left: 200px;
+            background-color: #ff3366;
+            color: white;
+            cursor: pointer;
+            border-radius: 50px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+        }
+
+        @keyframes fadeInOut {
+            0%, 100% {
+                opacity: 0.8;
+            }
+            50% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+        }
+    </style>
 </head>
 <body>
-
-<div class="flower">
-    <div class="text-above">De Brayan Carhuamaca</div>
-    <div class="mid">
+    <div>
+        <h1>MI AMORCITO 💕</h1>
+        <h2>Tengo un regalo para ti✍</h2>
+        <h2>No olvides que te amo más allá del tiempo.</h2>
+        <button onclick="window.location.href='rosas.html'">Ver regalo☞💛</button>
     </div>
-    <div class="Petal1 p1">
-    </div>
-    <div class="Petal1 p2">
-    </div>
-    <div class="Petal1 p3">
-    </div>
-    <div class="Petal1 p4">
-    </div>
-    <div class="Petal2 p1">
-    </div>
-    <div class="Petal2 p2">
-    </div>
-    <div class="Petal2 p3">
-    </div>
-    <div class="Petal2 p4">
-    </div>
-    <div class="Petal3 p1">
-    </div>
-    <div class="Petal3 p2">
-    </div>
-    <div class="Petal3 p3">
-    </div>
-    <div class="Petal3 p4">
-    </div>
-    <div class="text-below" s>Para esa persona mas especial en mi vida (Sarely)</div>
-    <div class="text-below" s>La flor que perdurara de por vida</div>
-    <div class="text-below" s>20/03/2024 23:54----- Duele perder a la persona que amas, tienes ideas tontas e estupidas tienes traumas y tienes problemas tienes de todo menos lo que ella necesita nunca fui suficiente nunca fui lo que se merecia
-    que alguien lo sea que tenga todo lo que necesite (Espero mejorar), espero ser alguien sin ella que ironia sufrir por algo que tu mismo causaste hahahahahahasdhjkhasdbjkñwefb hjkladfsjkñbkasdf eres un idiota
-    no pienses en luchar ella esta bien sin ti eso es lo que querias verdad maldito idiota egoista dete cuenta ella no estaba feliz a tu lado y aun asi querias estar con ella ella ya es feliz sin ti y eso esta bien 
-    --Callate tu que sabes di mi vida entera por ella, discuti con muchas personas estaba dispuesto a todo di mi dignidad di mi ser por ella lo se todo tanto que siento que me quede sin nada tu que sabes enserio era capaz de morir
-    por ella aun soy capaz 
-    -Ella alguna vez fue capaz de hacer algo de lo que tu hiciste?
-    -- No lo se sus sentimientos eran confusos no la entendia no se dejaba entender
-    -Mejoraras?
-    -- Tampoco lo se .....
-    -Si te ayude?
-    -- Sinceramente si ayuda al ataque</div>
-  </div>
 </body>
 </html>
